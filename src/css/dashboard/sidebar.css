@@ -1,0 +1,31 @@
+body{
+    height: 3000px;
+    margin: 0px;
+}
+
+.sidebar{
+    position: relative;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: 100%;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ccc;
+    background-color: white;
+    font-size: 10px;
+    flex-direction: column;
+}
+
+.sidebar-item{
+    display: flex;
+    flex-direction: column; /*reverse the align and justify */
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center; /*align vertically*/
+    justify-items: center; /*align horizontally*/
+    cursor: pointer;
+}
+
